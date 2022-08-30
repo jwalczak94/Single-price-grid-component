@@ -66,7 +66,7 @@ section#cyan {
 
 h2 {
   font-size: 1.1em;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 p#dollar {
@@ -169,5 +169,15 @@ li {
 
   li {
     line-height: 1.4;
+  }
+
+  button {
+    transition: 0.5s;
+  }
+
+  button:hover {
+    background-color: var(--LightGray);
+    color: var(--BrightYellow);
+    font-weight: 700;
   }
 }
