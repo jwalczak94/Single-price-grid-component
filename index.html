@@ -1,44 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <title>Frontend Mentor | Single Price Grid Component</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <title>Frontend Mentor | Single Price Grid Component</title>
-  <link rel="stylesheet" href="./style.css">
-</head>
+  <body>
+    <main class="container">
+      <h1 class="sr-only">Single Price Component</h1>
+      <section class="card-component">
+        <div class="card card-1">
+          <h2>Join our community</h2>
+          <h3>30-day, hassle-free money back guarantee</h3>
+          <p id="grey">
+            Gain access to our full library of tutorials along with expert code reviews. Perfect for
+            any developers who are serious about honing their skills.
+          </p>
+        </div>
 
-<body>
-  <main>
-    <section id="white">
-      <h1 id="cyan-txt">Join our community</h1>
-      <p id="green-text">30-day, hassle-free money back guarantee</p>
-      <p id="grey">Gain access to our full library of tutorials along with expert code reviews.
-        Perfect for any developers who are serious about honing their skills.</p>
-    </section>
+        <div class="card card-2">
+          <h3>Monthly Subscription</h3>
+          <div class="price-container">
+            <p class="price">&dollar;29</p>
+            <p>per month</p>
+          </div>
+          <p>Full access for less than &dollar;1 a day</p>
+          <a href="#" class="btn">Sign up</a>
+        </div>
 
-    <section id="cyan">
-      <h2>Monthly Subscription</h2>
-      <p id="dollar">&dollar;29 <span>per month</span></p>
-      <p>Full access for less than &dollar;1 a day</p>
-      <button>Sign up</button>
-    </section>
-
-    <section id="light-cyan">
-      <h2>Why Us</h2>
-      <ul>
-        <li>Tutorials by industry experts</li>
-        <li>Peer &amp; expert code review</li>
-        <li>Coding exercises</li>
-        <li>Access to our GitHub repos</li>
-        <li>Community forum</li>
-        <li>Flashcard decks</li>
-        <li>New videos every week</li>
-      </ul>
-    </section>
-  </main>
-</body>
-
+        <div class="card card-3 overlay">
+          <h3>Why Us</h3>
+          <ul>
+            <li>Tutorials by industry experts</li>
+            <li>Peer &amp; expert code review</li>
+            <li>Coding exercises</li>
+            <li>Access to our GitHub repos</li>
+            <li>Community forum</li>
+            <li>Flashcard decks</li>
+            <li>New videos every week</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
